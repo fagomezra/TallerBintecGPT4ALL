@@ -152,7 +152,7 @@ Para mayor información [seguir este link](https://github.com/nomic-ai/gpt4all/w
 :warning: **A menos que se indique lo contrario, al crear un nuevo chat seleccionar en modelo `Llama 3 8B Instruct General`**
 
 ## 7.1 Creación de un asistente para consultar temas relacionados con el código de tránsito
-Se deben seguir los pasos del numeral `5.1.1` para crear la colección `Transito` utilizando el archivo [código nacional de tránsito](https://github.com/manjarjc/TallerBintecGPT4ALL/blob/main/documentos/transito/ley-769-de-2002-codigo-nacional-de-transito_3704_0.pdf)
+Se deben seguir los pasos del numeral `5.1.1` para crear la colección `Transito` utilizando el archivo [código nacional de tránsito](https://github.com/fagomezra/TallerBintecGPT4ALL/blob/main/documentos/transito/ley-769-de-2002-codigo-nacional-de-transito_3704_0.pdf)
 Tambien puede descargar el archivo de [aquí](https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=5557)
 
 ### a. En el panel de la izquierda dar clic en `Chats`, luego dar clic en `+ Nuevo Chat`
@@ -192,7 +192,7 @@ Observamos que la respuesta no dice de forma explicita si realmente se utilizó 
 </details>
 
 ## 7.2 Asesor de finanzas personales
-Se debe crear la colección "FinanzasPersonales" y agregar el archivo [finanzas](https://github.com/manjarjc/TallerBintecGPT4ALL/blob/main/documentos/finanzas-personales/reporte_ingresos_egresos_familia_detallado.pdf). Esperar que se termine de indexar el pdf, crear un nuevo chat y hacer la siguiente pregunta:
+Se debe crear la colección "FinanzasPersonales" y agregar el archivo [finanzas](https://github.com/fagomezra/TallerBintecGPT4ALL/blob/main/documentos/finanzas-personales/reporte_ingresos_egresos_familia_detallado.pdf). Esperar que se termine de indexar el pdf, crear un nuevo chat y hacer la siguiente pregunta:
 
 ```
 De acuerdo al reporte de ingresos y egresos familiares que gastos se pueden recortar para lograr un ahorro del 5%?
