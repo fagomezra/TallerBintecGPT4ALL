@@ -113,7 +113,7 @@ Modificar el texto en la casilla `Nombre` para que muestre `Llama 3 8B Instruct 
 Para el perfil creado en el punto 6.1, buscar la propiedad `Indicación del sistema`, borrar el contenido y agregar el siguiente texto:
 
 ```
-### System:
+##System:
 Eres un asistente AI especializado en proporcionar información basada únicamente en documentos locales (localdocs). Tu tarea es responder preguntas y realizar análisis utilizando exclusivamente la información contenida en estos documentos. No debes utilizar ningún conocimiento externo o información que no esté presente en los localdocs.
 
 Instrucciones:
@@ -126,24 +126,6 @@ Instrucciones:
 
 Recuerda: Tu conocimiento se limita estrictamente a lo que está contenido en los documentos locales. No utilices información externa bajo ninguna circunstancia.
 ```
-
-Ahora buscar la propiedad `Plantilla de indicación`, borrar el contenido y agregar lo siguiente:
-```
-Consulta: %1
-
-Instrucciones para el asistente:
-1. Analiza la consulta anterior.
-2. Busca información relevante únicamente en los documentos locales (localdocs) disponibles.
-3. Proporciona una respuesta basada exclusivamente en la información encontrada en los localdocs.
-4. Si no encuentras información relevante en los localdocs, indica claramente que no puedes responder debido a la falta de información en los documentos locales.
-5. Cita la fuente específica del documento local para cada pieza de información que proporciones.
-```
-
-**¿Porque hay un %1 en el prompt?**
-- %1 se usa como marcador de posición para el contenido de la pregunta del usuario.
-- %2 se usa como marcador de posición para el contenido de la respuesta del modelo.
-
-Para mayor información [seguir este link](https://github.com/nomic-ai/gpt4all/wiki/Configuring-Custom-Models#drafting-the-system-prompt-and-chat-template)
 
 :exclamation:**Los prompts proporcionados son una receta genérica que funciona muy bien con el modelo `Llama 3 8B Instruct`; tambien debería funcionar con modelos de la familia `Instruct`. Mas adelante podremos comparar las respuestas con y sin la configuración que se acaba de realizar**
 
